@@ -1,0 +1,39 @@
+
+    <div class="container">
+        <div class="panel">
+            <div class="card">
+            <div class="row"> 
+                <div class="col liquid">
+                    <h4>Inventory Control System</h4>
+                    <div class="image">
+                        <img src="../../../assets/undraw_file_sync_ot38 (2).svg" alt="" class="login_img">
+                    </div>
+                </div>
+                <div class="col login">
+                    <form (submit)="signIn()">
+                        <div class="titles">
+                            <h3>SignIn</h3>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" [(ngModel)]= "user.user" name="user" placeholder="User"   class="form-input" required autofocus>
+                            <img src="../../../assets/user (1).png" alt="" class="user-ima">
+                            <div class="input-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" [(ngModel)]= "user.password" name="password" placeholder="Password"  class="form-input" required>
+                            <img src="../../../assets/login.png" alt="" class="user-ima">
+                            <div class="input-icon">
+                                <i class="fas fa-user-lock"></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-login">SignIn</button>
+                    </form>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    </div>
